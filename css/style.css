@@ -12,6 +12,8 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
+    height: 500px;
     
 }
 
@@ -38,4 +40,13 @@ section{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dream-area{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dw{
+    padding-right: 15%;
 }
