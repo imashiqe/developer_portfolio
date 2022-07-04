@@ -11,8 +11,7 @@ h1{
 }
 
 section{
-    display: flex;
-    margin-bottom: 150px;
+    
     height: 500px;
     
 }
@@ -20,6 +19,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 
 .half-width img{
@@ -49,4 +49,31 @@ section{
 }
 .dw{
     padding-right: 15%;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid blue;
+}
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullstack{
+    border-left: 7px solid red;
+}
+#baby{
+    border-left: 7px solid blue;
 }
